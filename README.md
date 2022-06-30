@@ -6,3 +6,4 @@ VUEJS practise
 - Vue 2
 - Vue 3
 - VueUse
+- Pinia
