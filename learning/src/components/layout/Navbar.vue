@@ -1,9 +1,9 @@
 <template>
-  <nav class="rounded border-gray-200 bg-white px-2 py-2.5 dark:bg-gray-800 sm:px-4">
+  <nav class="rounded px-2 py-2.5 sticky-top backdrop-blur">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
       <a href="https://vuejs.org/" class="flex items-center">
         <img src="../../assets/logo.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-        <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite</span>
+        <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Self Made</span>
       </a>
       <button data-collapse-toggle="mobile-menu" type="button" class="ml-3 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden" aria-controls="mobile-menu" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
@@ -20,6 +20,8 @@
           </li>
           <li>
             <router-link to="/market" class="block border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">Market</router-link>
+          </li>          <li>
+            <router-link to="/infinite-scroll" class="block border-b border-gray-100 py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white">Load</router-link>
           </li>
         </ul>
       </div>

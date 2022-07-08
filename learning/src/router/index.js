@@ -15,6 +15,11 @@ const routes = [
     path: '/market',
     name: 'Market',
     component: () => import('../components/Market.vue'),
+  },  
+  {
+    path: '/infinite-scroll',
+    name: 'Infinite Scroll',
+    component: () => import('../components/InfiniteScroll.vue'),
   },
   {
     path: '/:pathMach(.*)*',
